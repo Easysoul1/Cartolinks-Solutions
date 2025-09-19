@@ -17,16 +17,12 @@ export default function Footer() {
             <span className="text-black text-xl font-bold">Krea AI</span>
           </div>
 
-          {/* Right side - Links */}
-          <div className="flex items-center gap-6">
-            <button className="flex items-center gap-2 text-gray-600 text-sm">
-              <FileText className="w-3.5 h-3.5" />
-              <span>Legal</span>
-            </button>
-            <button className="flex items-center gap-2 text-gray-600 text-sm">
-              <DollarSign className="w-3.5 h-3.5" />
-              <span>Pricing</span>
-            </button>
+          {/* Right side - Curated by */}
+          <div className="flex items-center gap-2">
+            <span className="text-gray-500 text-sm">curated by</span>
+            <svg width="74" height="20" viewBox="0 0 74 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 19.2V0.8H5.74V11.12H11.48V0.8H17.22V19.2H11.48V13.28H5.74V19.2H0ZM22.3879 19.2V0.8H33.5879V2.96H28.1279V8.48H33.2279V10.64H28.1279V17.04H33.5879V19.2H22.3879ZM38.5219 19.2V0.8H44.2619V17.04H49.6619V19.2H38.5219ZM54.8279 19.2V0.8H60.5679V17.04H65.9679V19.2H54.8279ZM73.6619 19.2V0.8H67.9219V19.2H73.6619Z" fill="#111111"/>
+            </svg>
           </div>
         </div>
       </div>
