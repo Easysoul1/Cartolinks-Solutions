@@ -17,6 +17,18 @@ export default function Footer() {
             <span className="text-black text-xl font-bold">Krea AI</span>
           </div>
 
+          <div className="flex items-center gap-6">
+            <span className="text-gray-500 text-sm">Gallery</span>
+            <button className="flex items-center gap-2 text-gray-600 text-sm">
+              <FileText className="w-3.5 h-3.5" />
+              <span>Legal</span>
+            </button>
+            <button className="flex items-center gap-2 text-gray-600 text-sm">
+              <DollarSign className="w-3.5 h-3.5" />
+              <span>Pricing</span>
+            </button>
+          </div>
+
           {/* Right side - Curated by */}
           <div className="flex items-center gap-2">
             <span className="text-gray-500 text-sm">curated by</span>
