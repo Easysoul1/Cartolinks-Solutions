@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const metadata = { title: 'App', description: 'Next.js app' }
+export const metadata = { title: 'Cartolinks Solutions', description: 'Next.js app' }
 import './globals.css'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
